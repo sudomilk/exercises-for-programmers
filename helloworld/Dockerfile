@@ -6,4 +6,4 @@ COPY config/ ./config/
 COPY test/ ./test/
 COPY mix.exs ./
 RUN ["mix", "compile"]
-CMD ["iex", "-S", "mix"]
+CMD ["mix", "hello_world.greet"]
