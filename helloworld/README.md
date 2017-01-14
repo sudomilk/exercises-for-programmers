@@ -6,9 +6,11 @@ Example Usage
 ---
 
 ```
-$ docker run -it --rm e4p-helloworld
-What is your name? Michael
-Hello, Michael, nice to meet you!
+$ docker run -it --rm sudomilk/e4p-helloworld:elixir
+```
+
+```
+# docker run -it --rm sudomilk/e4p-helloworld:elixir mix hello_world.greet novar
 ```
 
 [Docker Hub Linkage](https://hub.docker.com/r/sudomilk/e4p-helloworld/)

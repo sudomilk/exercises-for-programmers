@@ -6,4 +6,4 @@ COPY config/ ./config/
 COPY test/ ./test/
 COPY mix.exs ./
 RUN ["mix", "compile"]
-CMD ["mix", "hello_world.greet"]
+ENTRYPOINT ["mix", "hello_world.greet"]
