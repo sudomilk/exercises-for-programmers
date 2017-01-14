@@ -3,7 +3,7 @@ defmodule Mix.Tasks.HelloWorld.Greet do
 
   @shortdoc "Ask for your name and greet you"
 
-  def run(["novar"]) do
+  def run(["--novar"]) do
     #Constraint: no variables allowed
     IO.puts "Hello, #{IO.gets("What is your name? ") |> String.trim_trailing}, nice to meet you!"
     :ok
