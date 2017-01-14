@@ -11,4 +11,4 @@ What is your name? Michael
 Hello, Michael, nice to meet you!
 ```
 
-[Docker Hub Linkage](https://img.shields.io/docker/stars/sudomilk/e4p-helloworld.svg)
+[Docker Hub Linkage](https://hub.docker.com/r/sudomilk/e4p-helloworld/)
