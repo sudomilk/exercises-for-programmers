@@ -6,7 +6,7 @@ Example Usage
 ---
 
 ```
-$ docker run -it --rm sudomilk/e4p-helloworld:elixir [--novar] [--diffgreets]
+$ docker run -it --rm sudomilk/e4p-helloworld:elixir [--novar] [--special]
 ```
 
 [Docker Hub Linkage](https://hub.docker.com/r/sudomilk/e4p-helloworld/)
